@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "FlyScoop",
+    "slug": "flyscoop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3a0088"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.flyscoop.ios",
+      "buildNumber": "22",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3a0088"
+      },
+      "package": "app.flyscoop.android",
+      "versionCode": 22
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76da3c74-9856-419e-a2b4-c98d08849d25"
+      }
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
+  }
+}
